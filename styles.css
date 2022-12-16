@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background: #201f1e;
+}
+
+html {
+  font-size: 14px;
+}
+
+.header {
+  background: #3f51b5;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.header__title {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}
+.header__paragraph {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.content {
+  margin: 2rem 0rem;
+}
+.content__image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content__image--description {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.content__image:hover {
+  cursor: pointer;
+}
+.content__title {
+  color: #fff;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 3rem;
+}
+.content__paragraph {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 2rem;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content__list {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 800px;
+}
+.content__list--item {
+  margin-top: 1rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.footer > a {
+  color: #009cf7;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+  .content__list--item {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
